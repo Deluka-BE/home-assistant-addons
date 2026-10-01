@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.2.5
+
+- Fix CalDAV mutation authentication: guarded mutation GET/PUT/DELETE requests now use the configured authentication.
+
 ## 0.2.4
 
 - Safely delete exactly one recurring CalDAV occurrence using EXDATE and one conditional PUT; remove only its matching detached exception.
