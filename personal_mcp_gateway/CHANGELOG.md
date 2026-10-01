@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.2.3
+
+- Add `calendar_update_event` and `calendar_delete_event` for standalone CalDAV events with guarded ETag-based writes.
+- Expand Spotify MCP coverage to the current Spotify Web API capabilities available to Development Mode apps, including library, playback, metadata, playlist management and cover uploads.
+- Preserve all existing Hevy, Calendar, Codex, Auth0, Funnel and Spotify tools/configuration.
+- No Home Assistant configuration schema changes.
+
+
 ## 0.2.2
 
 - Use the public MCP endpoint `/mcp` as the Auth0 API audience.
