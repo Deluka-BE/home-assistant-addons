@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.2.4
+
+- Safely delete exactly one recurring CalDAV occurrence using EXDATE and one conditional PUT; remove only its matching detached exception.
+- Preserve original DATE, UTC, floating and TZID recurrence identity and all unrelated resource bytes; reject ambiguous or unsupported cases without writing.
+- Keep standalone deletion, authentication and guarded transport behavior unchanged. No single-occurrence update support or configuration schema changes.
+- Validation: 305 tests passed, including 36 occurrence deletion regressions; amd64/arm64 container checks and publication verification passed.
+- Source revision: `543a7bd0609efb85101ef3eebc8393258e41299a`.
+
 ## 0.2.3
 
 - Add `calendar_update_event` and `calendar_delete_event` for standalone CalDAV events with guarded ETag-based writes.
