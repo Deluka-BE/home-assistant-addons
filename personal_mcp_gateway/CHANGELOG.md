@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.2.1
+
+- Stable Home Assistant update version for the verified OAuth discovery fix.
+- Exact retag of the previously verified multi-arch OAuth-fix image.
+- No configuration changes; existing Hevy, Auth0, CalDAV, Codex and Spotify options remain valid.
+
+# Changelog
+
 ## 0.2.0-test-oauth-mcp-938d7f2-1
 
 - Fix MCP OAuth protected-resource discovery for the public `/mcp` endpoint.
