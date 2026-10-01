@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.2.2
+
+- Use the public MCP endpoint `/mcp` as the Auth0 API audience.
+- Keep OAuth protected-resource metadata, Auth0 audience and JWT resource validation aligned on the same `/mcp` URL.
+- Verified OAuth discovery and unauthenticated MCP challenge behavior.
+- Verified linux/amd64 and linux/arm64 images.
+- Existing Home Assistant configuration fields remain unchanged.
+
 ## 0.2.1
 
 - Stable Home Assistant update version for the verified OAuth discovery fix.
