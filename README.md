@@ -1,4 +1,6 @@
-# Deluka-BE Home Assistant Add-ons
+# Retired Home Assistant catalog
 
-Repository for MCP Funnel. The active Persoonlijke MCP HAOS add-on catalog is in
-[Deluka-BE/pironman5-oled-text](https://github.com/Deluka-BE/pironman5-oled-text).
+This repository no longer provides Home Assistant apps. All four apps moved to
+[Deluka’s Home Assistant Apps](https://github.com/Deluka-BE/home-assistant-apps).
+Use the canonical catalog for installation and updates. This repository remains
+available for its history.
